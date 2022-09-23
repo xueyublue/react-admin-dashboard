@@ -39,6 +39,9 @@
 .sidebarListItem.active,
 .sidebarListItem:hover {
   background-color: rgb(240, 240, 255);
+  transition: all 0.3s ease;
+  color: darkblue;
+  font-weight: 600;
 }
 
 .sidebarIcon {
