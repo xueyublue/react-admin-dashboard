@@ -12,6 +12,7 @@ import {
   MailOutline,
   DynamicFeed,
 } from "@mui/icons-material";
+import { Link } from "react-router-dom";
 import "./sidebar.css";
 
 const Sidebar = () => {
@@ -21,9 +22,9 @@ const Sidebar = () => {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Dashboard</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem active">
+            <Link to="/" className="sidebarListItem active">
               <LineStyle className="sidebarIcon" /> Home
-            </li>
+            </Link>
             <li className="sidebarListItem">
               <Timeline className="sidebarIcon" /> Analytics
             </li>
@@ -35,9 +36,9 @@ const Sidebar = () => {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
-            <li className="sidebarListItem">
+            <Link to="/users" className="sidebarListItem">
               <PermIdentity className="sidebarIcon" /> Users
-            </li>
+            </Link>
             <li className="sidebarListItem">
               <Storefront className="sidebarIcon" /> Products
             </li>
