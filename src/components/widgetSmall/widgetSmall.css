@@ -31,6 +31,14 @@
 .widgetSmallUser {
   display: flex;
   flex-direction: column;
+  flex: 1;
+  margin: 0px 10px;
+}
+.widgetSmallUser:hover {
+  background-color: #eeeef7;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 .widgetSmallUserName {

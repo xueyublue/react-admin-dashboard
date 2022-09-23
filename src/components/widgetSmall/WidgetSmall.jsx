@@ -28,8 +28,8 @@ const WidgetSmall = () => {
             alt=""
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Anna Keller</span>
-            <span className="widgetSmallUserTitle">Software Engineer</span>
+            <span className="widgetSmallUserName">Min Guang</span>
+            <span className="widgetSmallUserTitle">Senior Software Engineer</span>
           </div>
           <button class="widgetSmallButton">
             <Visibility className="widgetSmallIcon" />
@@ -43,8 +43,8 @@ const WidgetSmall = () => {
             alt=""
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Anna Keller</span>
-            <span className="widgetSmallUserTitle">Software Engineer</span>
+            <span className="widgetSmallUserName">David Lee</span>
+            <span className="widgetSmallUserTitle">Staff Engineer</span>
           </div>
           <button class="widgetSmallButton">
             <Visibility className="widgetSmallIcon" />
@@ -58,8 +58,8 @@ const WidgetSmall = () => {
             alt=""
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Anna Keller</span>
-            <span className="widgetSmallUserTitle">Software Engineer</span>
+            <span className="widgetSmallUserName">Will Smith</span>
+            <span className="widgetSmallUserTitle">Technical Lead</span>
           </div>
           <button class="widgetSmallButton">
             <Visibility className="widgetSmallIcon" />
@@ -73,8 +73,8 @@ const WidgetSmall = () => {
             alt=""
           />
           <div className="widgetSmallUser">
-            <span className="widgetSmallUserName">Anna Keller</span>
-            <span className="widgetSmallUserTitle">Software Engineer</span>
+            <span className="widgetSmallUserName">John Doe</span>
+            <span className="widgetSmallUserTitle">Intern</span>
           </div>
           <button class="widgetSmallButton">
             <Visibility className="widgetSmallIcon" />
