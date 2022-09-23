@@ -6,10 +6,11 @@
   top: 50px;
   min-width: 220px;
   max-width: 220px;
+  overflow: auto;
 }
 
 .sidebarWrapper {
-  padding: 20px;
+  padding: 10px;
   color: #555;
 }
 
