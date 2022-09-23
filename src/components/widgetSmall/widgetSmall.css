@@ -55,7 +55,7 @@
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
-  background-color: #eeeef7;
+  background-color: rgb(240, 240, 255);
   color: #555;
   cursor: pointer;
 }
