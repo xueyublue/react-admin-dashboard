@@ -13,7 +13,7 @@ function App() {
     if (pathname && pathname === "/") {
       history("/home");
     }
-  }, []);
+  });
   return (
     <>
       <Topbar />
