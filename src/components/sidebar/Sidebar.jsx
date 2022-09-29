@@ -12,7 +12,7 @@ import {
   MailOutline,
   DynamicFeed,
 } from "@mui/icons-material";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./sidebar.css";
 
 const Sidebar = () => {

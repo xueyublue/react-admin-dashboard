@@ -5,6 +5,7 @@ import "./app.css";
 import Home from "./pages/home/Home";
 import UserList from "./pages/userList/UserList";
 import { useEffect } from "react";
+import User from "./pages/user/User";
 
 function App() {
   const history = useNavigate();
@@ -21,6 +22,7 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/home" element={<Home />}></Route>
+          <Route path="/user/:userId" element={<User />}></Route>
           <Route path="/users" element={<UserList />}></Route>
         </Routes>
       </div>
