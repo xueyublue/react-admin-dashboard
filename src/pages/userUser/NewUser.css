@@ -2,3 +2,50 @@
   flex: 4;
   padding: 10px;
 }
+
+.userUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.newUserItem > label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: gray;
+  font-weight: bold;
+}
+
+.newUserItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.newUserGender > label {
+  margin: 10px;
+}
+
+.newUserSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+
+.newUserButton {
+  width: 200px;
+  border: none;
+  background-color: teal;
+  color: white;
+  font-weight: bold;
+  padding: 7px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
