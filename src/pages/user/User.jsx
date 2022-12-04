@@ -14,7 +14,7 @@ const User = () => {
     <div className={styles.user}>
       <div className={styles.userTitleContainer}>
         <h3>Edit User</h3>
-        <Link to="/newUser">
+        <Link to="/users/add">
           <button className={styles.userAddButton}>Create</button>
         </Link>
       </div>

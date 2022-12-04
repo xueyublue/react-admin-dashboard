@@ -8,6 +8,7 @@ import { useEffect } from "react";
 import User from "./pages/user/User";
 import NewUser from "./pages/userUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
+import Product from "./pages/product/Product";
 
 function App() {
   const history = useNavigate();
@@ -24,11 +25,11 @@ function App() {
         <Sidebar />
         <Routes>
           <Route path="/home" element={<Home />}></Route>
-          <Route path="/user/:userId" element={<User />}></Route>
+          <Route path="/users/:userId" element={<User />}></Route>
           <Route path="/users" element={<UserList />}></Route>
-          <Route path="/newUser" element={<NewUser />}></Route>
+          <Route path="/users/add" element={<NewUser />}></Route>
           <Route path="/products" element={<ProductList />}></Route>
-          <Route path="/products/:productId" element={<ProductList />}></Route>
+          <Route path="/products/:productId" element={<Product />}></Route>
           <Route path="/newproduct" element={<ProductList />}></Route>
         </Routes>
       </div>
