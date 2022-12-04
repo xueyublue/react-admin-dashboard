@@ -9,6 +9,7 @@ import User from "./pages/user/User";
 import NewUser from "./pages/userUser/NewUser";
 import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
+import NewProduct from "./pages/newProduct/NewProduct";
 
 function App() {
   const history = useNavigate();
@@ -30,7 +31,7 @@ function App() {
           <Route path="/users/add" element={<NewUser />}></Route>
           <Route path="/products" element={<ProductList />}></Route>
           <Route path="/products/:productId" element={<Product />}></Route>
-          <Route path="/newproduct" element={<ProductList />}></Route>
+          <Route path="/products/add" element={<NewProduct />}></Route>
         </Routes>
       </div>
     </>
