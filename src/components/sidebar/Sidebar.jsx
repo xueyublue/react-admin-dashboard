@@ -39,9 +39,9 @@ const Sidebar = () => {
             <NavLink to="/users" activeClassName="active" className="sidebarListItem">
               <PermIdentity className="sidebarIcon" /> Users
             </NavLink>
-            <li className="sidebarListItem">
+            <NavLink to="/products" activeClassName="active" className="sidebarListItem">
               <Storefront className="sidebarIcon" /> Products
-            </li>
+            </NavLink>
             <li className="sidebarListItem">
               <AttachMoney className="sidebarIcon" /> Transactions
             </li>

@@ -7,6 +7,7 @@ import UserList from "./pages/userList/UserList";
 import { useEffect } from "react";
 import User from "./pages/user/User";
 import NewUser from "./pages/userUser/NewUser";
+import ProductList from "./pages/productList/ProductList";
 
 function App() {
   const history = useNavigate();
@@ -26,6 +27,9 @@ function App() {
           <Route path="/user/:userId" element={<User />}></Route>
           <Route path="/users" element={<UserList />}></Route>
           <Route path="/newUser" element={<NewUser />}></Route>
+          <Route path="/products" element={<ProductList />}></Route>
+          <Route path="/products/:productId" element={<ProductList />}></Route>
+          <Route path="/newproduct" element={<ProductList />}></Route>
         </Routes>
       </div>
     </>
