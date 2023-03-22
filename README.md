@@ -1,5 +1,4 @@
-React Demo Project
-- Pure CSS
+### React Dashboard styled with CSS ONLY
 
 ### Home
 <img width="906" alt="image" src="https://user-images.githubusercontent.com/18031774/226947813-231c7af4-42b1-4d96-a3ad-a9f5ecccad73.png">
