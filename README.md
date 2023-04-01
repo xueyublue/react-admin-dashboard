@@ -4,6 +4,9 @@
 3. npm install
 4. npm run start
 
+## How this project structured?
+<img width="264" alt="image" src="https://user-images.githubusercontent.com/18031774/229260627-09633556-7615-48ee-bddb-fe1944167698.png">
+
 ## Pages
 ### Home
 ![image](https://user-images.githubusercontent.com/18031774/229260470-48829cd3-6f8a-4490-a17f-5feb8dd21dd9.png)
