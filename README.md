@@ -1,22 +1,27 @@
-### React Dashboard styled with CSS ONLY
+## How to run this project?
+1. git clone https://github.com/xueyublue/react-dashboard-css.git
+2. cd react-dashboard-css
+3. npm install
+4. npm run start
 
+## Pages
 ### Home
-<img width="906" alt="image" src="https://user-images.githubusercontent.com/18031774/226947813-231c7af4-42b1-4d96-a3ad-a9f5ecccad73.png">
+![image](https://user-images.githubusercontent.com/18031774/229260470-48829cd3-6f8a-4490-a17f-5feb8dd21dd9.png)
 
 ### User List
-<img width="910" alt="image" src="https://user-images.githubusercontent.com/18031774/226947946-bcad0277-c59f-4d75-a8ae-eefa602a62b2.png">
+![image](https://user-images.githubusercontent.com/18031774/229260515-68b28ee9-e345-4ab9-a711-dd166d054720.png)
 
 ### Edit User
-<img width="904" alt="image" src="https://user-images.githubusercontent.com/18031774/226948313-4d9abbbc-9b37-44b4-91d8-121afec34459.png">
+![image](https://user-images.githubusercontent.com/18031774/229260506-6bff6d4f-0eb1-4446-b101-18ba7ee439a7.png)
 
 ### Create User
-<img width="899" alt="image" src="https://user-images.githubusercontent.com/18031774/226948733-1628e520-b13e-4406-b4fa-40d93a36513b.png">
+![image](https://user-images.githubusercontent.com/18031774/229260538-14c3703a-167b-4928-a3dc-d9a03e64dea1.png)
 
 ### Product List
-<img width="905" alt="image" src="https://user-images.githubusercontent.com/18031774/226948031-8b24542c-cd05-4f95-b346-bf03cdf600e9.png">
+![image](https://user-images.githubusercontent.com/18031774/229260562-aa670288-489b-4bca-992d-120ab66b1517.png)
 
 ### Edit Product
-<img width="906" alt="image" src="https://user-images.githubusercontent.com/18031774/226948907-18a9bf7c-6b65-43f0-8f5b-a15dcd53b8b9.png">
+![image](https://user-images.githubusercontent.com/18031774/229260572-c94ae99c-4783-48a7-8315-56ee89c39a5e.png)
 
 ### Create Product
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/18031774/229260581-bd17bdd2-3493-49f4-b973-a115ac136b8c.png)
